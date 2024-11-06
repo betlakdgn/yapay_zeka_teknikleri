@@ -9,6 +9,9 @@ venv/
 ENV/
 env/
 
+myenv/Lib/site-packages/clang/native/libclang.dll
+myenv/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+
 # IDE/Editor dosyaları
 .vscode/
 .idea/
