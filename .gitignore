@@ -1,0 +1,53 @@
+# Python'un derleme dosyaları
+*.pyc
+*.pyo
+__pycache__/
+
+# Sanal ortamlar
+myenv/
+venv/
+ENV/
+env/
+
+# IDE/Editor dosyaları
+.vscode/
+.idea/
+
+# Jupyter Notebook çıktıları
+.ipynb_checkpoints
+
+# PyInstaller dosyaları
+dist/
+build/
+*.spec
+
+# Testler için geçici dosyalar
+.coverage
+.tox/
+.nox/
+*.hypothesis/
+.pytest_cache/
+
+# Python Dağıtım Paketleri
+*.egg
+*.egg-info
+*.dist-info
+*.deb
+
+# Windows özel dosyalar
+Thumbs.db
+ehthumbs.db
+
+# macOS özel dosyalar
+.DS_Store
+
+# Log dosyaları
+*.log
+
+# API anahtarlarını içeren dosyalar (Özellikle güvenlik için)
+config.json
+config.yaml
+*.env
+
+# Sadece kişisel veya geçici dosyalar
+*.swp
