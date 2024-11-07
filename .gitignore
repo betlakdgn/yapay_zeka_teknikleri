@@ -1,56 +1,67 @@
-# Python'un derleme dosyaları
-*.pyc
-*.pyo
-__pycache__/
-
-# Sanal ortamlar
+# Sanal ortam klasörleri
 myenv/
-venv/
-ENV/
 env/
+venv/
+.venv/
 
-myenv/Lib/site-packages/clang/native/libclang.dll
-myenv/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+# Python derlenmiş dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
 
-# IDE/Editor dosyaları
+# Kişisel IDE/Editor dosyaları
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 
-# Jupyter Notebook çıktıları
-.ipynb_checkpoints
-
-# PyInstaller dosyaları
-dist/
-build/
-*.spec
-
-# Testler için geçici dosyalar
-.coverage
-.tox/
-.nox/
-*.hypothesis/
-.pytest_cache/
-
-# Python Dağıtım Paketleri
-*.egg
-*.egg-info
-*.dist-info
-*.deb
-
-# Windows özel dosyalar
-Thumbs.db
-ehthumbs.db
-
-# macOS özel dosyalar
+# MacOS ve diğer işletim sistemi dosyaları
 .DS_Store
+Thumbs.db
 
-# Log dosyaları
+# Jupyter Notebook checkpoint dosyaları
+.ipynb_checkpoints/
+
+# Log dosyaları ve geçici dosyalar
 *.log
-
-# API anahtarlarını içeren dosyalar (Özellikle güvenlik için)
-config.json
-config.yaml
-*.env
-
-# Sadece kişisel veya geçici dosyalar
+*.tmp
+*.bak
 *.swp
+*.lock
+
+# Çıktı dosyaları ve geçici klasörler
+outputs/
+models/
+*.h5
+*.ckpt
+*.pb
+*.tflite
+
+# Büyük ML dosyaları
+*.pkl
+*.joblib
+*.pyd
+*.dll
+*.so
+
+# CSV, dataset ve büyük veri dosyaları
+*.csv
+*.tsv
+*.dat
+*.data
+*.npz
+
+# TensorFlow için spesifik dosyalar
+tensorflow/
+myenv/Lib/site-packages/tensorflow/
+
+# Büyük dosyalar veya gereksiz dosyalar
+*.pyd
+*.dll
+
+# Git LFS kullanımı önerilen büyük dosyalar
+# (Örneğin eğitim veri setleri, model ağırlıkları gibi çok büyük dosyalar varsa)
+*.h5
+*.tar.gz
+*.zip
+*.tgz
