@@ -55,13 +55,16 @@ models/
 tensorflow/
 myenv/Lib/site-packages/tensorflow/
 
-# Büyük dosyalar veya gereksiz dosyalar
-*.pyd
-*.dll
 
 # Git LFS kullanımı önerilen büyük dosyalar
 # (Örneğin eğitim veri setleri, model ağırlıkları gibi çok büyük dosyalar varsa)
-*.h5
+
 *.tar.gz
 *.zip
 *.tgz
+
+
+
+
+# Diğer Kütüphaneler
+node_modules/
